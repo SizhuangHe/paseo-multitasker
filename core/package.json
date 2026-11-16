@@ -1,0 +1,17 @@
+{
+  "name": "agent-queue-core",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Queue store for agent-queue: schema, add/merge/resolve/snooze/done/track over node:sqlite.",
+  "type": "module",
+  "exports": {
+    ".": "./index.ts"
+  },
+  "types": "./index.ts",
+  "engines": {
+    "node": ">=22.13.0 <23 || >=23.4.0"
+  },
+  "scripts": {
+    "test": "node --test"
+  }
+}

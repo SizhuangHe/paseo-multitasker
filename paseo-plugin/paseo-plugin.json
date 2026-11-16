@@ -1,0 +1,20 @@
+{
+  "id": "multitasker",
+  "name": "Multitasker",
+  "description": "One queue of cards for what needs the user next: decisions and results that agents file, plus dispatched work that came back.",
+  "media": [
+    "assets/agents.png",
+    "assets/agents-phone.png"
+  ],
+  "requirements": {
+    "paseo": ">=0.15.3"
+  },
+  "build": [
+    [
+      "npm",
+      "ci",
+      "--omit=dev",
+      "--ignore-scripts"
+    ]
+  ]
+}
