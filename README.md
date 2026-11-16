@@ -31,12 +31,14 @@ Multitasker takes that bookkeeping off you. When an agent needs you, for a decis
 
 Needs Paseo 0.15.3 or newer, and Node.js 22.13 or newer on the daemon host (23.4 or newer on Node 23) for the built-in `node:sqlite`. `bin/agent-queue` runs its TypeScript source directly, so the CLI needs a Node with type stripping on by default (22.18 or newer, or 23.6 or newer). npm must be on the daemon's command path.
 
+Turn on plugins in Paseo first: Settings, Plugins, Enable plugins, or `paseo daemon config set pluginsEnabled true`. It takes effect without a restart. While that switch is off a plugin stays disabled, and `paseo plugin enable multitasker` has no effect.
+
 ```sh
 paseo plugin install git:https://github.com/SizhuangHe/paseo-multitasker.git:paseo-plugin
 paseo plugin ls            # multitasker should be running
 ```
 
-Paseo clones the repository and runs the manifest's build step, `npm ci --omit=dev --ignore-scripts`, in `paseo-plugin/`. It links `core/` from the same checkout and downloads no packages from the npm registry. Plugins must be turned on in Paseo: Settings, Plugins, Enable plugins, or `paseo daemon config set pluginsEnabled true`. While that switch is off a plugin stays disabled, and `paseo plugin enable multitasker` has no effect.
+Paseo clones the repository and runs the manifest's build step, `npm ci --omit=dev --ignore-scripts`, in `paseo-plugin/`. It links `core/` from the same checkout and downloads no packages from the npm registry.
 
 ## What agents get
 

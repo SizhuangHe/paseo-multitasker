@@ -1,4 +1,4 @@
-Multitasker adds a **Multitasker** screen to Paseo for what your agent sessions need from you next. Agents file cards; each card holds one thing: a decision only you can make, a result to look at, or dispatched work that came back. Permission requests and failed turns also become cards without the agent doing anything. Its sidebar row, Multitasker, shows how many agents need you.
+Multitasker adds a **Multitasker** screen to Paseo for what your agent sessions need from you next. Agents file cards; each card holds one thing: a decision only you can make, a result to look at, or dispatched work that came back. Permission requests and failed turns also become cards without the agent doing anything. Its sidebar row, Multitasker, shows how many agents are waiting on you, counting both Needs you and Idle agents.
 
 ## The screen
 
