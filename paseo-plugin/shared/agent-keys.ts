@@ -1,4 +1,4 @@
-// Desktop keyboard triage of the Agents screen, pure so the screen and the tests share it: the order the
+// Desktop keyboard triage of the Multitasker screen, pure so the screen and the tests share it: the order the
 // open cards are visited in (the order the current view lists them) and what a key does. The screen's
 // listener only dispatches the action this returns.
 import { boardColumns } from "./agent-columns.ts";
@@ -87,7 +87,7 @@ export type KeyAction =
   | { type: "session" }
   | { type: "back" };
 
-/** What a key does on the Agents screen, or null when it is not ours. */
+/** What a key does on the Multitasker screen, or null when it is not ours. */
 export function keyAction(event: KeyEvent, context: KeyContext): KeyAction | null {
   if (event.meta || event.ctrl || event.alt || context.typing || context.dialogOpen) return null;
   const { key } = event;

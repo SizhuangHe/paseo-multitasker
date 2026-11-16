@@ -1,4 +1,4 @@
-// RPC contracts between the Agents screen and the plugin subprocess.
+// RPC contracts between the Multitasker screen and the plugin subprocess.
 import { defineRpc } from "@getpaseo/plugin";
 import { z } from "zod";
 
@@ -68,7 +68,7 @@ export const AgentMetaSchema = z.object({
   workspace: z.string().nullable().optional(),
 });
 
-/** Where in the Agents screen a close came from (see core CloseOrigin); older clients omit it. */
+/** Where in the Multitasker screen a close came from (see core CloseOrigin); older clients omit it. */
 export const CloseOriginSchema = z.object({
   compact: z.boolean().optional(),
   view: z.enum(["tree", "columns", "list"]).optional(),

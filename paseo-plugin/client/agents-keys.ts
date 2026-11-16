@@ -1,4 +1,4 @@
-// The Agents screen's keyboard: one `keydown` listener on the document while the screen is mounted,
+// The Multitasker screen's keyboard: one `keydown` listener on the document while the screen is mounted,
 // desktop only. What a key means is shared/agent-keys; this only reads the focus and hands the action over.
 import { useEffect, useRef } from "react";
 import { isChoiceChipOf, keyAction, type KeyAction, type KeyContext } from "../shared/agent-keys";

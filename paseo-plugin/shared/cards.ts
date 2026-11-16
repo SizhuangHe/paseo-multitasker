@@ -1,7 +1,6 @@
 // Card helpers shared by the card components and the plugin server: the card title, how an ask is
 // answered (its kind and choices), which cards have Discuss, and the messages the queue sends into
-// the session. Those messages are conversation text in the user's voice, not UI: Chinese when the
-// card's own text (what the message quotes) has CJK characters, English otherwise.
+// the session. Those messages are conversation text in the user's voice, not UI: always English.
 // Structural types, so both core cards and RPC cards fit.
 
 export interface ChoiceLike {

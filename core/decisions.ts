@@ -21,7 +21,7 @@ export interface DecisionRow {
   /** Labels the user picked; empty when none are recorded. */
   picks: string[];
   reply: string | null;
-  /** Where in the Agents screen the close came from; null on a close from before it was recorded. */
+  /** Where in the Multitasker screen the close came from; null on a close from before it was recorded. */
   compact: boolean | null;
   view: "tree" | "columns" | "list" | null;
   batch: boolean;
