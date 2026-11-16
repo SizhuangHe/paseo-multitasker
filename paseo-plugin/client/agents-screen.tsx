@@ -1,4 +1,4 @@
-// The Agents screen and its sidebar row: the one entry to the queue's cards and the agents they come
+// The Multitasker screen and its sidebar row: the one entry to the queue's cards and the agents they come
 // from. Agents come from the plugin's `manager.agents` RPC and cards from the queue's list. While the
 // screen is shown, Paseo's agent directory subscription refetches the agents on every agent update (at
 // most every 1.5 s), with a slow poll behind it; without the subscription the screen polls every 4 s.
@@ -15,7 +15,7 @@ import { AgentsView, type ManagerView } from "./agents-view";
 import { QUEUE_QUERY_KEY, useCardMutations, useClosedCards, useQueueList, useTick } from "./queue-client";
 
 export const AGENTS_SCREEN_ID = "agents";
-/** The inbox's screen before Agents replaced it: links and open tabs that still name it land on Agents. */
+/** The inbox's screen before the Multitasker screen replaced it: links and open tabs that still name it land on Multitasker. */
 export const QUEUE_SCREEN_ID = "queue";
 const AGENTS_QUERY_KEY = ["agent-queue", "manager", "agents"] as const;
 const POLL_MS = 4_000;

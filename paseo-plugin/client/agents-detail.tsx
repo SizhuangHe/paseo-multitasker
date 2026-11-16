@@ -178,7 +178,7 @@ export function AgentDetail({ node, ctx, mode, onClose }: { node: AgentNode; ctx
   const top = (
     <View style={d.bar}>
       {mode === "screen" && onClose ? (
-        <Pressable accessibilityRole="button" accessibilityLabel="Back to agents" onPress={onClose} style={pressStyle(s.back, s.hover, s)}>
+        <Pressable accessibilityRole="button" accessibilityLabel="Back to Multitasker" onPress={onClose} style={pressStyle(s.back, s.hover, s)}>
           <Text style={s.backChevron}>‹</Text>
           <Text style={s.backText}>Multitasker</Text>
         </Pressable>

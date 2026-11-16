@@ -1,8 +1,8 @@
-// The card components, for the Agents screen. One card is one thing for the user (an ask, a result, a
+// The card components, for the Multitasker screen. One card is one thing for the user (an ask, a result, a
 // receipt, or a host request), with its own You asked → It did → Blocked recall: the card as it sits in
 // an agent's detail (answer, look and close right there), and the card in full (tap its title). Older
 // cards that hold several items keep their earlier layout. UI labels are English; card content is the
-// agents' (Chinese). All colors come from the Paseo theme; color only carries status.
+// agents' own words. All colors come from the Paseo theme; color only carries status.
 import type { PluginTheme } from "@getpaseo/plugin";
 import { Icon, TextInput } from "@getpaseo/plugin/client/ui";
 import { useQuery } from "@tanstack/react-query";

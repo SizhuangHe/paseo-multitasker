@@ -37,7 +37,7 @@ export function useManagerStyles(theme: PluginTheme, compact: boolean) {
       rule,
       ...StyleSheet.create({
         page: { flex: 1, minHeight: 0, backgroundColor: c.surface0 },
-        // header: Agents 15 · the three states with their counts (the legend) · Archive all · views
+        // header: Multitasker 15 · the three states with their counts (the legend) · Archive all · views
         head: {
           flexDirection: "row",
           alignItems: "center",
@@ -226,7 +226,7 @@ export function Counts({ nodes, ctx }: { nodes: readonly AgentNode[]; ctx: Manag
   );
 }
 
-/** Agents 15 (and Offline while the polls fail), then each state with its mark and count (the legend), then Mark N done (when any), Archive all, then the views on desktop. */
+/** Multitasker 15 (and Offline while the polls fail), then each state with its mark and count (the legend), then Mark N done (when any), Archive all, then the views on desktop. */
 export function Header(props: {
   ctx: ManagerCtx;
   view: ManagerView;

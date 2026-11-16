@@ -144,7 +144,7 @@ export interface ClosingPick {
   recommended: boolean;
 }
 
-/** Where in the Agents screen a close came from; absent on closes from older clients and rows. */
+/** Where in the Multitasker screen a close came from; absent on closes from older clients and rows. */
 export interface CloseOrigin {
   /** The phone layout. */
   compact?: boolean;

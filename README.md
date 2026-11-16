@@ -3,7 +3,7 @@
 Multitasker is a [Paseo](https://paseo.sh) plugin that gives you one queue for what needs you next across all your agent sessions.
 Agents file cards for decisions, results to look at and dispatched work that came back; you work through them from one Multitasker screen. The queue core, the CLI and the agents' MCP tools keep the name agent-queue.
 
-https://github.com/user-attachments/assets/461ee702-f903-4039-b3a6-44c7046afb67
+https://github.com/user-attachments/assets/1b436336-7663-4c9e-8fae-b1706c7779ad
 
 ## Why
 

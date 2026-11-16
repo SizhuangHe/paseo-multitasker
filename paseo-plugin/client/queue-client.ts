@@ -1,4 +1,4 @@
-// The queue's data and the card actions, for the Agents screen and its sidebar row: the polled card
+// The queue's data and the card actions, for the Multitasker screen and its sidebar row: the polled card
 // list, and Send, Seen, Dismiss, Later, Discuss, permission answers, opening a session, a link or a path,
 // through the plugin RPCs. The screen and the row share one query, so an action shows on both.
 import { openExternalUrl, useRpc, type PluginScreenProps } from "@getpaseo/plugin/client";
