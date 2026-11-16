@@ -1,7 +1,7 @@
 {
   "name": "agent-queue",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "One queue of cards for things where the next step belongs to the user, for Paseo sessions.",
   "type": "module",
   "bin": {

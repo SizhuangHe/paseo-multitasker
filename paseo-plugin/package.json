@@ -1,7 +1,7 @@
 {
   "name": "agent-queue-paseo-plugin",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.1.1",
   "type": "module",
   "description": "Multitasker, a Paseo plugin on agent-queue: agent tools to file cards, hooks for dispatches, permissions and failures, and the queue screen.",
   "files": [
